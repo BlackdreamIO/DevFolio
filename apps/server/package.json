@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node dist/index",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc -p ."
+  },
+  "author": "blackdream",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "bullmq": "^5.34.5",
+    "cloudinary": "^2.5.1",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "socket.io": "^4.8.1"
+  }
+}
